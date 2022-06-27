@@ -1,0 +1,52 @@
+/* Preguntas */
+.info {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+    &__preg1 {
+        margin: 5px;
+    }
+     &__preg1 h2 {
+        margin: 5px;
+    }
+     &__preg2 {
+        margin: 5px;
+    }
+    
+     &__preg2 h2 {
+        margin: 5px;
+    }
+    
+     &__preg3 {
+        margin: 5px;
+    }
+    
+     &__preg3 h2 {
+        margin: 5px;
+    }
+    
+     &__preg4 {
+        margin: 5px;
+    }
+    
+     &__preg4 h2 {
+        margin: 5px;
+    }
+    
+     &__preg5 {
+        margin: 5px;
+    }
+    
+     &__preg5 h2 {
+        margin: 5px;
+    }
+    
+     &__preg6 {
+        margin: 5px;
+    }
+    
+     &__preg6 h2 {
+        margin: 5px;
+    }
+}

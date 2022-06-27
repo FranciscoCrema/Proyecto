@@ -1,0 +1,137 @@
+/* Resposive tablet */
+@media screen and (max-width: 952px) {
+    .enlace {
+        padding-left: 20px;
+    }
+
+    nav ul li a {
+        font-size: 25px;
+    }
+
+    /* parrafo abajo del subtitulo */
+    .parrafo1 {
+        margin-left: 5px;
+    }
+
+    /* Slider de img  */
+    .slider {
+        width: 70vw;
+        height: 40vh;
+        margin-top: 10px;
+    }
+
+    /* Seccion Producto */
+    .cont__product {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+
+    /* Seccion Nosotros */
+    .contenedor__Nosotros {
+        display: block;
+        margin: 10px;
+    }
+
+    .contenedor__laura {
+        margin: 10px;
+    }
+
+    .contenedor__trabajo {
+        margin-top: 10px;
+    }
+
+    /* Seccion Contacto */
+    .form {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Responsive de celular */
+@media screen and (max-width: 580px) {
+    .checkbtn {
+        display: block;
+    }
+
+    nav ul {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background: #232122;
+        top: 203px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 25px;
+    }
+
+    li a:hover,
+    li a.active {
+        background: #FDFF8F;
+        transition: .5s;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+    .col2 {
+        padding: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+
+    /* Slider de img  */
+    .slider {
+        width: 80vw;
+    }
+
+    /* parrafo abajo del subtitulo */
+    .parrafo1 {
+        margin-left: 5px;
+    }
+
+    /* Seccion Producto */
+    .cont__product {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    /* Seccion Nosotros */
+    .contenedor__Nosotros {
+        display: block;
+    }
+
+    /* Seccion Contacto */
+    .form {
+        display: flex;
+        flex-direction: column;
+        min-height: 150px;
+        max-height: 350px;
+    }
+
+    .texto {
+        max-width: 100%;
+    }
+
+    /* Redes de footer */
+    .col2{
+        padding: 10px;
+        margin-left: 7px;
+
+         ul{
+            padding-left: 0;
+        }
+    }
+    }
